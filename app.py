@@ -6,9 +6,6 @@ import time
 app = Flask(__name__)
 
 
-# app.config['DEBUG'] = True
-
-
 @app.before_request
 def before_req():
     g.start = time.time() * 1000
