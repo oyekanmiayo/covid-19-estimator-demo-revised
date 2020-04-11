@@ -94,4 +94,3 @@ def build_estimation_output(data):
 
 def estimator(data):
     return build_estimation_output(data)
-
